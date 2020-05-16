@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterfooddelivery/Animations/FakeAnimation.dart';
 
 class StarterPage extends StatefulWidget {
   @override
@@ -33,9 +34,9 @@ class _StarterPageState extends State<StarterPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.end,
             children: <Widget>[
-              Text('Taking Order For Delivery',style: TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.bold),),
+              FadeAnimation(0.5,Text('Taking Order For Delivery',style: TextStyle(color: Colors.white, fontSize: 50, fontWeight: FontWeight.bold),)),
               SizedBox(height: 20,),
-              Text("See restaurants nearby by \nadding location", style: TextStyle(color: Colors.white, height: 1.4, fontSize: 18),),
+              FadeAnimation(1,Text("See restaurants nearby by \nadding location", style: TextStyle(color: Colors.white, height: 1.4, fontSize: 18),)),
               SizedBox(height: 100,),
               Container(
                 decoration: BoxDecoration(
