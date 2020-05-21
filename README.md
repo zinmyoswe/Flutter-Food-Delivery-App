@@ -4,12 +4,7 @@ Flutter Food Delivery
 
 ## Getting Started
 
-<style>
-   table td, table th {
-       padding: 6px 13px;
-       border: 1px solid #fff;
-   }
-</style>
+
 
 <div style="text-align: center"><table><tr>
   <td style="text-align: center">
